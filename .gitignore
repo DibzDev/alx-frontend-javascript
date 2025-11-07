@@ -5,10 +5,21 @@ node_modules/
 # Build outputs
 dist/
 */dist/
-*.js
-*.js.map
-*.d.ts
 temp/
+
+# Compiled JavaScript (but NOT configuration files)
+*.js
+!webpack.config.js
+!*.config.js
+!.eslintrc.js
+!crud.js
+
+# Compiled TypeScript declarations (but NOT source declarations)
+*.d.ts
+!crud.d.ts
+
+# Source maps
+*.js.map
 
 # Environment variables
 .env
