@@ -1,12 +1,10 @@
 {
   "compilerOptions": {
-    "outDir": "./dist/",
-    "sourceMap": true,
-    "noImplicitAny": true,
-    "module": "es6",
     "target": "es5",
-    "allowJs": true,
-    "moduleResolution": "node",
-        "skipLibCheck": true
-  }
+    "module": "none",
+    "outFile": "./dist/bundle.js",
+    "strict": true,
+    "esModuleInterop": true
+  },
+  "include": ["js/**/*.ts"]
 }
